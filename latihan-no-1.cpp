@@ -6,12 +6,11 @@ int main() {
     string nama;
     char predikat;
 
-    cout << "Ketik 'exit' untuk keluar" << endl;
     cout << "Nama Mahasiswa : " << endl;
     cin >> nama;
 
     cout << "Masukkan nilai (100 - 0) : " << endl;
-    cin >> score, keluar;
+    cin >> score;
 
     if (score >= 90) {
         predikat = 'A';
